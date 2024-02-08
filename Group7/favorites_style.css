@@ -1,0 +1,65 @@
+/* Style for favorites list */
+#favorites-list {
+    margin: 20px;
+}
+
+/* Style for each coach row */
+.favorite-coach {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Style for coach name */
+.favorite-coach .coach-name {
+    font-weight: bold;
+}
+
+/* Style for rating stars */
+.favorite-coach .stars {
+    color: #ffd700; /* Set star color */
+}
+
+/* Style for "Learn More" button */
+.favorite-coach .learn-more-button {
+    margin-right: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.favorite-coach .learn-more-button:hover {
+    background-color: #45a049;
+}
+
+/* Style for class type */
+.favorite-coach .class-type {
+    margin-right: 10px;
+}
+.flex-navbar a:nth-child(2){
+    background-color: rgba(0, 0, 0, 50%);
+    border-radius:20px;
+}
+
+/* Style for "Delete" button */
+.favorite-coach .delete-button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.favorite-coach .delete-button:hover {
+    background-color: #da190b;
+}
